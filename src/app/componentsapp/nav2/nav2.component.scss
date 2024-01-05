@@ -1,0 +1,26 @@
+*::selection{
+    background-color: transparent;
+}
+ul{
+    margin: 0%;
+    padding: 0%;
+}
+li{
+    display: inline;
+    font-weight: bolder;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: larger;
+    cursor: pointer;
+}
+li:hover{
+    border-bottom: 2px solid black;
+}
+li:active{
+    border-bottom: 2px solid lightblue;
+}
+span{
+    font-weight: bolder;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: larger;
+    margin-right: 5px;
+}

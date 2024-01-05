@@ -1,0 +1,31 @@
+#main{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    .pro{
+        width: 30vw;
+        height: 40vh;
+        margin: 10px;
+        margin-bottom: 5vh;
+        overflow: none;
+        img{
+            width: 30vw;
+            height: 30vh;
+        }
+    }
+}
+button{
+    width: fit-content;
+    margin: auto;
+    display: block;
+    background-color: #333333d4;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+button:hover{
+    background-color: #333;
+}
+button:active{
+    background-color: black;
+}

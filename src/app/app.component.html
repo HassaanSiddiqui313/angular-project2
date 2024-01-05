@@ -1,0 +1,16 @@
+<header>
+  <h1>HS</h1>
+  <nav>
+    <app-nav *ngIf="nav; else nav2"></app-nav>
+    <ng-template #nav2>
+      <app-nav2 ></app-nav2>
+    </ng-template>
+  </nav>
+  <aside>
+    <app-login *ngIf="login; else cnt"></app-login>
+    <ng-template #cnt><app-cntact></app-cntact></ng-template>
+  </aside>
+</header>
+<main>
+  <router-outlet></router-outlet>
+</main>

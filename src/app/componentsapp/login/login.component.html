@@ -1,0 +1,7 @@
+<button *ngIf="singin; else welcome" routerLink="login">SING IN</button>
+<ng-template #welcome>
+    <div>
+      <h3>{{user | uppercase}}</h3>
+      <button class="btn" routerLink="login" (click)="f1()"> LOGOUT</button>
+    </div>
+</ng-template>

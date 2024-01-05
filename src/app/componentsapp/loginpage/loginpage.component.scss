@@ -1,0 +1,27 @@
+div{
+    width: 50%;
+    margin: auto;
+    margin-top: 50px;
+    h1{
+        width: fit-content;
+        margin: auto;
+        margin-bottom: 50px;
+    }
+    input{
+        width: fit-content;
+        margin: auto;
+        // margin: 5px;
+        display: block;
+        height: 50px;
+        width: 400px;
+        font-size: large;
+    }
+    button{
+        width: fit-content;
+        margin: auto;
+        display: block;
+        height: 50px;
+        width: 100px;
+        font-size: x-large;
+    }
+}

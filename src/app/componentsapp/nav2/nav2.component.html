@@ -1,0 +1,6 @@
+<ul *ngIf="navproduct; else gallery">
+    <span>&#60;</span><li (click)="f2()">Go Back To Products</li>
+</ul>
+<ng-template #gallery>
+    <span>&#60;</span><li (click)="f1()">Go Back To Gallery</li>
+</ng-template>
